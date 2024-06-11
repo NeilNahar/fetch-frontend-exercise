@@ -4,7 +4,7 @@ import IndividualSelectedBreed from './IndividualSelectedBreed';
 const ViewSelectedBreeds = (props) => {
   
   return (
-    <div className="breed-selector">
+    <div className="breed-selector view-selected-breed">
       <h3 className="breed-selector-title">View Selected Breeds Gallery</h3>
       <div className="breed-selector-body">
         {props.breedClickCollection.map((item, index) => {

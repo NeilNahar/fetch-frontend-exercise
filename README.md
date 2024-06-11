@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Fetch Front-End Exercise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Fetch Front-End Exercise to build an application where users can view an image gallery of their favorite dog breeds. Users can select one or more dog breeds, and upon selecting a breed, the web app displays images of that breed in the gallery.
 
-## Available Scripts
+## API Used
 
-In the project directory, you can run:
+- **Dog API**: This API is used to fetch images of dog breeds.
 
-### `npm start`
+## Hosted Repository
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- The project is hosted on GitHub: [Fetch Front-End Exercise](https://github.com/NeilNahar/fetch-frontend-exercise)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Image Gallery**: Users can view images of their selected dog breeds.
+- **Shimmer UI**: A shimmer effect is used for better user experience while images are loading.
+- **Performance Optimization**: Various techniques have been implemented to ensure the app runs smoothly.
+- **Best Practices**: The project follows best practices in React and front-end development.
+- **User Experience**: Emphasis on providing a seamless and enjoyable user experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Code Quality
 
-### `npm run build`
+The project maintains high code quality standards, ensuring the code is clean, readable, and maintainable.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Fulfillment of Requirements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+All the requirements specified for the exercise have been fulfilled.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+To run this project locally, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   git clone https://github.com/NeilNahar/fetch-frontend-exercise.git
+   cd fetch-frontend-exercise
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Install dependencies:**
+    
+   If you are using npm:
+   npm install
 
-## Learn More
+3. **Running the Application**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   To start the development server, use the following command:
+   If you are using npm:
+   npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## The application will start and can be accessed at http://localhost:3000.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Project Structure
+   
+   src/: Contains the source code for the application.
+   public/: Contains the public assets and the HTML file.
+   constants/: Contains constants like API URLs.

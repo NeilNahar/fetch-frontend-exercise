@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { BREEDS_LIST } from './constants/Url';
 
 const FetchImage = (props) => {
     const [breedName, setBreedName] = useState("");
@@ -17,7 +18,7 @@ const FetchImage = (props) => {
 
     useEffect(() => {
         const fetchBreedImage = async () => {
-        const response = await fetch(`https://dog.ceo/api/breed/${breedName}/images/random`);
+        const response = await fetch(`${BREEDS_LIST}/${breedName}/images/random`);
         const data = await response.json();
         setUrl(data.message);
         };
